@@ -1,3 +1,6 @@
 function purchase(totalAmount) {
-    return totalAmount * 1.05
+    totalAmount += totalAmount * 0.05
+    discount -= totalAmount * 0.10
+    return totalAmount
 }
+
